@@ -1,0 +1,26 @@
+.containerSobre{
+    display: flex;
+    margin: 20px;
+    margin-top: 200px;
+
+    height: auto;
+}
+.h2Sobre{
+    color: white;
+    font-size: 3em;
+
+}
+.pSobre{
+    color: white;
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.hrSobre{
+    width: 50%;
+}
+.imgSobre{
+    width: 300px;
+    height: 400px;
+    border-radius: 50% ;
+}
