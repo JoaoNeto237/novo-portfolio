@@ -1,15 +1,35 @@
-.header{
-    margin: 0px;
-    padding: 0px;
+
+.header {
+    margin: 0;
+    padding: 0;
+    width: 100%; 
 }
 
-.headerNav{
+.headerNav {
     background-color: #fff;
-    height: 30px;
-    
+    height: 40px;
+    display: flex;
+    align-items: center; 
+    padding: 0 30px; 
 }
-.headerUl{
+
+.headerUl {
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly; 
+    flex: 1; 
+    padding: 0;
+    margin: 0;
+}
+
+.headerLi {
+    font-size: 1.2em;
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    transition: color 0.3s;
+    padding: 10px 15px; 
+}
+.headerLi:hover {
+    color: #615b5b; 
 }

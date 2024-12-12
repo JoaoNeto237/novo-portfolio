@@ -1,4 +1,5 @@
 import './App.css'
+import Formacao from './components/Formacao'
 import Header from './components/Header'
 import Home from './components/Home'
 import Sobre from './components/Sobre'
@@ -10,6 +11,7 @@ function App() {
     <Header />
     <Home />
     <Sobre />
+    <Formacao />
     </>
   )
 }

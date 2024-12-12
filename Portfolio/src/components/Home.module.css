@@ -1,22 +1,39 @@
-.divHome{
+.divHome {
     display: flex;
-    justify-content: space-around;
-    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    margin-top: 40px;
+    padding-bottom: 200px;
 }
-.h1Home{
+
+.h1Home {
     color: white;
     font-size: 3.5em;
-    padding: 10px;
+    padding: 30px;
+    margin-bottom: 0; 
 }
-.pHome{
+
+.pHome {
     color: white;
     text-align: center;
-    border: 0.1px  solid ;
-    border-radius: 30%;
-    border-width: 0.1px;
-    
+    border: 2px solid white; 
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-size: 1.2em; 
+    width: fit-content; 
+    margin-left: auto;
+    margin-right: auto; 
 }
-.imgHome{
+.divP{
+    width: 350px;
+    margin: auto;
+}
+
+.imgHome {
     width: 500px;
-    height: 500px;
+    height: 400px;
 }
