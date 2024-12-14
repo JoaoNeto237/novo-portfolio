@@ -1,0 +1,15 @@
+.containerProjetos{
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.h2Projetos {
+    color: white;
+    font-size: 4em;
+    font-family: serif;
+    margin: 20px;
+    text-align: left;
+    margin-bottom: 100px;
+}
