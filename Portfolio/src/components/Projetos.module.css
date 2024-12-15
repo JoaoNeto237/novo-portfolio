@@ -58,7 +58,7 @@
 .projetoDescricao {
     font-size: 1em;
     color: white;
-    margin-top: 10px;
+    margin-top: 0px;
     font-style: italic;
 }
 .imgBarbearia{
@@ -73,4 +73,20 @@
     height: 300px;
     object-fit: contain;
     border-radius: 10px;
+}
+.buttonProjeto{
+    margin-top: 50px;
+    color: #000;
+    width: 100%;
+    height: 40px;
+    font-size: 1em;
+    background-color:rgba(209, 209, 244, 0.825);
+    border-radius: 10%;  
+    padding: 12px 30px; 
+    border: none; 
+    border-radius: 50px; 
+    cursor: pointer; 
+    transition: all 0.3s ease; 
+    font-weight: bold; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }

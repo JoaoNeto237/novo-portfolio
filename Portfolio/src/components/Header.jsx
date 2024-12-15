@@ -17,7 +17,7 @@ function Header() {
                         <li className={styles.headerLi}>
                             <button 
                                 onClick={() => rolarParaComponentes('Home')} 
-                                style={{ all: 'unset' }} // Remove toda a estilização padrão do botão
+                                style={{ all: 'unset' }} 
                             >
                                 Home
                             </button>
@@ -25,7 +25,7 @@ function Header() {
                         <li className={styles.headerLi}>
                             <button 
                                 onClick={() => rolarParaComponentes('Sobre')} 
-                                style={{ all: 'unset' }} // Remove toda a estilização padrão do botão
+                                style={{ all: 'unset' }} 
                             >
                                 Sobre
                             </button>
@@ -33,7 +33,7 @@ function Header() {
                         <li className={styles.headerLi}>
                             <button 
                                 onClick={() => rolarParaComponentes('Formacao')} 
-                                style={{ all: 'unset' }} // Remove toda a estilização padrão do botão
+                                style={{ all: 'unset' }} 
                             >
                                 Formação
                             </button>
@@ -41,7 +41,7 @@ function Header() {
                         <li className={styles.headerLi}>
                             <button 
                                 onClick={() => rolarParaComponentes('Habilidades')} 
-                                style={{ all: 'unset' }} // Remove toda a estilização padrão do botão
+                                style={{ all: 'unset' }} 
                             >
                                 Habilidades
                             </button>
@@ -49,7 +49,7 @@ function Header() {
                         <li className={styles.headerLi}>
                             <button 
                                 onClick={() => rolarParaComponentes('Servicos')} 
-                                style={{ all: 'unset' }} // Remove toda a estilização padrão do botão
+                                style={{ all: 'unset' }} 
                             >
                                 Serviços
                             </button>
@@ -57,7 +57,7 @@ function Header() {
                         <li className={styles.headerLi}>
                             <button 
                                 onClick={() => rolarParaComponentes('Projetos')} 
-                                style={{ all: 'unset' }} // Remove toda a estilização padrão do botão
+                                style={{ all: 'unset' }} 
                             >
                                 Projetos
                             </button>
@@ -65,7 +65,7 @@ function Header() {
                         <li className={styles.headerLi}>
                             <button 
                                 onClick={() => rolarParaComponentes('Contato')} 
-                                style={{ all: 'unset' }} // Remove toda a estilização padrão do botão
+                                style={{ all: 'unset' }} 
                             >
                                 Contato
                             </button>
