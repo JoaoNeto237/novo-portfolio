@@ -1,15 +1,69 @@
-.containerServicos{
+.containerServicos {
     margin: 0 auto;
     max-width: 1200px;
     padding: 20px;
-    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 200px;
+}
+
+.headerServicos {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
 }
 
 .h2Servicos {
     color: white;
     font-size: 4em;
     font-family: serif;
-    margin: 20px;
-    text-align: left;
-    margin-bottom: 100px;
+    margin: 0;
+    padding-right: 20px; /* Espaço entre o título e os serviços */
+}
+
+.servicosContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.servicos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.servicos h3 {
+    text-transform: capitalize;
+    font-size: 1.2em;
+    margin: 15px 0 10px;
+    color: white;
+}
+
+.servicos p {
+    font-size: 0.9em;
+    text-align: justify;
+    color: white;
+    padding: 10px;
+}
+
+.servicos i, .iconeNav {
+    font-size: 50px;
+    color: white;
+    margin-bottom: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.servicos i:hover, .iconeNav:hover {
+    transform: scale(1.1);
+    color: #00bfff; /* Cor de destaque no hover */
 }

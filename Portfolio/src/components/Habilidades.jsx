@@ -14,7 +14,7 @@ import mongodb from '../../imagens/mongodb.png';
 
 function Habilidades() {
     return (
-        <div className={styles.containerHabilidades}>
+        <div id='Habilidades' className={styles.containerHabilidades}>
             <h2 className={styles.h2Habilidades}>Habilidades</h2>
             <div className={styles.divImgHabilidades}>
                 <div>

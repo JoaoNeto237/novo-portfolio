@@ -3,6 +3,10 @@
     margin: 0;
     padding: 0;
     width: 100%; 
+    position:sticky; /* Fixa o header */
+    top: 0; /* Fixa no topo da página */
+    left: 0; /* Garante que o header fique alinhado à esquerda */
+    z-index: 1000;
 }
 
 .headerNav {

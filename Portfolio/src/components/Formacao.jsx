@@ -5,7 +5,7 @@ function Formacao(){
     return(
     <>
 
-        <div className={styles.divGeralFormacao}>
+        <div id='Formacao' className={styles.divGeralFormacao}>
             <div>
             <h2 className={styles.h2Formacao}>Formação</h2>
             </div>

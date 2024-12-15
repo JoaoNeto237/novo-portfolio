@@ -6,7 +6,7 @@ import instagram from '../../imagens/instagram.jfif';
 function Contato(){
     return(
         <>
-            <div className={styles.containerContato}>
+            <div id='Contato' className={styles.containerContato}>
                 <h2 className={styles.h2Contato}>Contato</h2>
               <div className={styles.containerConteudoContato}>
                   <div>

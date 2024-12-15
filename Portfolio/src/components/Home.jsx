@@ -3,7 +3,7 @@ import home from '../../imagens/home.avif';
 
 function Home() {
     return (
-        <div className={styles.divHome}>
+        <div id="Home" className={styles.divHome}>
             <div>
                 <h1 className={styles.h1Home}>Transformando ideias em soluções digitais completas</h1>
                 <div className={styles.divP}>
