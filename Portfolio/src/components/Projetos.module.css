@@ -61,10 +61,10 @@
     margin-top: 0px;
     font-style: italic;
 }
-.imgBarbearia{
+
+.imgBarbearia {
     width: 100%;
     height: 300px;
-    
     object-fit: cover;
 }
 
@@ -74,19 +74,120 @@
     object-fit: contain;
     border-radius: 10px;
 }
-.buttonProjeto{
+
+.buttonProjeto {
     margin-top: 50px;
     color: #000;
     width: 100%;
     height: 40px;
     font-size: 1em;
-    background-color:rgba(209, 209, 244, 0.825);
-    border-radius: 10%;  
-    padding: 12px 30px; 
-    border: none; 
-    border-radius: 50px; 
-    cursor: pointer; 
-    transition: all 0.3s ease; 
-    font-weight: bold; 
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    background-color: rgba(209, 209, 244, 0.825);
+    border-radius: 10%;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 1024px) {
+    .containerProjetos {
+        max-width: 900px;
+        padding: 15px;
+    }
+
+    .h2Projetos {
+        font-size: 3.5em;
+    }
+
+    .projetos {
+        max-width: 300px;
+    }
+
+    .buttonProjeto {
+        width: 80%;
+        font-size: 0.95em;
+    }
+
+    .imgProjetos,
+    .imgBarbearia {
+        height: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .containerProjetos {
+        padding: 10px;
+    }
+
+    .h2Projetos {
+        font-size: 3em;
+        text-align: center;
+        margin: auto;
+    }
+
+    .projetosContainer {
+        gap: 20px;
+    }
+
+    .projetos {
+        max-width: 280px;
+    }
+
+    .projetoTitulo {
+        font-size: 1.3em;
+    }
+
+    .buttonProjeto {
+        font-size: 0.9em;
+        padding: 10px 20px;
+    }
+
+    .imgProjetos,
+    .imgBarbearia {
+        height: 200px;
+    }
+}
+
+@media (max-width: 480px) {
+    .containerProjetos {
+        padding: 10px;
+        margin-bottom: 100px;
+    }
+
+    .h2Projetos {
+        font-size: 2.5em;
+        text-align: center;
+        margin-bottom: 10px;
+        margin: auto;
+    }
+
+    .projetosContainer {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .projetos {
+        max-width: 100%;
+    }
+
+    .projetoTitulo {
+        font-size: 1.2em;
+    }
+
+    .projetoDescricao {
+        font-size: 0.9em;
+    }
+
+    .buttonProjeto {
+        width: 90%;
+        font-size: 0.85em;
+    }
+
+    .imgProjetos,
+    .imgBarbearia {
+        height: 180px;
+    }
 }
