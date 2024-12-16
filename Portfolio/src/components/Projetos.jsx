@@ -78,7 +78,7 @@ function Projetos() {
                     <button 
                         onClick={()=> acessarProjeto('https://github.com/JoaoNeto237/landing-pagee')} 
                         className={styles.buttonProjeto}>
-                        Acessar projeto
+                        Acessar no GitHub
                     </button>
                 </div>
 
@@ -93,7 +93,7 @@ function Projetos() {
                     <button 
                         onClick={()=> acessarProjeto('https://github.com/JoaoNeto237/projeto_hamburgueria')} 
                         className={styles.buttonProjeto}>
-                        Acessar projeto
+                        Acessar no GitHub
                     </button>
                 </div>
 
@@ -123,7 +123,7 @@ function Projetos() {
                     <button 
                         onClick={()=> acessarProjeto('https://github.com/JoaoNeto237/Barbearia-App')} 
                         className={styles.buttonProjeto}>
-                        Acessar projeto
+                         Acessar no GitHub
                     </button>
                 </div>
 
